@@ -16,6 +16,7 @@ const Projects = () => {
           {projects.map((project) => (
             <a
               href={project.link}
+              target='_blank'
               key={project.image}
               className="sm:w-1/2 w-full p-4">
               <div className="relative">

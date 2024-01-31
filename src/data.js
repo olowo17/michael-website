@@ -29,7 +29,7 @@ export const projects = [
     description:
       "TypeScript, React, Scss",
     image: "./lensqr.png",
-    link: "lendsqrpay.netlify.app/",
+    link: "https://lendsqrpay.netlify.app/",
   },
 ];
 
