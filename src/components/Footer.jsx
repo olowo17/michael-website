@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer grid justify-center bg-purple-900 p-4 " id="contact">
       <div className="text-center text-slate-400 font-mono font-extrabold text-xl md:space-x-4 m-auto">
-        <p>Contact Me</p>
+        <p>Handles</p>
       </div>
       <div className="flex justify-center text-center p-2 m-auto">
         <a

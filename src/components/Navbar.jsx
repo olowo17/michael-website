@@ -17,15 +17,13 @@ const Navbar = () => {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="https://github.com/olowo17" target="_blank" rel="noopener noreferrer" className="mr-5 hover:text-white">
-            Repository
-          </a>
         </nav>
         <a
-          href="#contact"
+          href="https://github.com/olowo17"
+          target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center bg-gray-600 border-0 py-1 px-3 focus:outline-none text-white rounded text-base mt-4 md:mt-0 hover:bg-purple-900"
         >
-          Hire Me
+          Repository
           <ArrowRightIcon className="w-4 h-4 ml-1 text-green-500 " />
         </a>
       </div>
