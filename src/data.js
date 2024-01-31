@@ -57,7 +57,7 @@ export const skills = [
   "Python",
   "React",
   "Node",
-  "Tailwind Css",
+  "Tailwind CSS",
   "MongoDb",
   "Mysql",
   "Mssql"

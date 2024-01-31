@@ -1,25 +1,28 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className='bg-purple-900 p-4'>
+    <section id="about" className="bg-purple-900 p-4 flex">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Michael Olowoyo.
           </h1>
           <p className="mb-8 text-gray-300">
-         A software Engineer skilled in managing all stages of software development life-cycle
+            A software Engineer skilled in managing all stages of software
+            development life-cycle
           </p>
           <div className="sm:flex gap-2 grid justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white text-center bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
               Contact Me
             </a>
             <a
               href="#projects"
-              className=" inline-flex text-gray-400  border-0 py-2 px-6 focus:outline-none bg-gray-900 hover:text-white rounded text-lg">
+              className=" inline-flex text-gray-400 text-center border-0 py-2 px-6 focus:outline-none bg-gray-900 hover:text-white rounded text-lg"
+            >
               See Projects
             </a>
           </div>
@@ -33,7 +36,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
