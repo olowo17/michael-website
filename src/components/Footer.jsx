@@ -3,7 +3,7 @@ import { FaEnvelope,FaWhatsapp, FaLinkedin, FaTwitter} from "react-icons/fa";
 import "../styles/Footer.css"
 const Footer = () => {
   const contactLinks = {
-    gmail: "mailto:your.email@olowo.michael179.com",
+    gmail: "mailto:olowo.michael179@gmail.com",
     whatsapp: "https://wa.me/2348100316259",
     linkedin: "https://www.linkedin.com/in/michael-olowoyo-520b2b271",
     twitter: "https://twitter.com/olowoyo_michael",
